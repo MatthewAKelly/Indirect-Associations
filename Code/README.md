@@ -1,3 +1,5 @@
+Code for the word ordering task (Experiments 3 and 4).
+
 To use the code:
 
 1. Use the Makefile to "make tess".
