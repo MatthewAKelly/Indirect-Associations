@@ -8,6 +8,6 @@ To use the code:
 
 3. Run HHM on a corpus (see https://github.com/MatthewAKelly/BEAGLE-HHM for MatLab Code or https://github.com/moojan/Python-BEAGLE-HHM for Python code).
 
-4. test_file2017.txt is the set of test sentences used to evaluate the exemplar model in the word ordering task.
+4. test_file2017.txt is the set of test sentences for the word ordering task.
 
-5. Give tess the memory vectors from the desired level of HHM to represent words and test_file2017.txt. The executable tess then uses the exemplar model to evalute the ability of the give vectors to order words in the sentences in test_file2017.txt us. Exemplar model is based on the Exemplar Production Model from Johns et al. (2016) "The Combinatorial Power of Experience" <http://btjohns.com/pubs/JJCJM_cogsci_2016.pdf>.
+5. Give tess the memory vectors from the desired level of HHM to represent words and test_file2017.txt as a test set of sentences for evaluation. The executable tess then uses the exemplar model to evalute the ability of the given vectors to order words in the test set sentences. Exemplar model is based on the Exemplar Production Model from Johns et al. (2016) "The Combinatorial Power of Experience" <http://btjohns.com/pubs/JJCJM_cogsci_2016.pdf>.
